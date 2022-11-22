@@ -8,5 +8,6 @@ data:
     targets:
       webhook:
         url: https://oapi.dingtalk.com/robot/send?access_token=4f4167f7d00b1d9d00ce3d7900dfb911e28a915a82a2bfc0e6b53316ef7597b6
+        secret: SECe518cd43c4f7bba9d3e28539d99114b5d1ed687beefa14b366e05c7238d9432f
         mention:
           all: true
