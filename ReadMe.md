@@ -1,5 +1,6 @@
 # Prometheus+Grafana+AlertManager
 
+```azure
 git clone https://github.com/WANNA959/kube-prometheus
 cd kube-prometheus
 kubectl create -f ./setup
@@ -9,3 +10,4 @@ kubectl create -f ./manifests
 kubectl create -f ./network-policy
 # ding talk alert
 kubectl create -f ./ding-talk
+```
